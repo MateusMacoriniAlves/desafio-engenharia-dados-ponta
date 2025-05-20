@@ -52,10 +52,27 @@ Com os seguintes passos:
 
 1. Clone o repositório:
 2. git clone https://github.com/MateusMacoriniAlves/desafio-engenharia-dados-ponta.git
-3. docker-compose up -d --build
-4. http://localhost:8080
+3. docker compose build
+4. docker compose up
+5. http://localhost:8080
 - Usuário: airflow
 - Senha: airflow
 
 ## 🧪 Testes e execução
-- Verifique no painel se a DAG (dag_boi_gordo)
+- Verifique no painel se a DAG (dag_boi_gordo) existe.
+- Execute a DAG manualmente para testar seu funcionamento
+
+## 🧹 Parar e limpar o ambiente
+docker-compose down
+docker-compose down --volumes --rmi all
+
+## 📌 Observações
+- Este projeto foi desenvolvido em Ubuntu 24.04 com Python 3.11.9 dentro dos containers.
+- Caso queira testar localmente, existe um arquivo chamado "api.py" na raiz que executa o código fora do airflow
+  - Esse arquivo foi colocado aí para testes e futuras execuções, caso o usuário queira executar fora do aiflow.
+- Alguns diretório são criados automaticamente. Eles estão ignorados pelo .gitignore
+
+## 👨‍💻 Autor
+- Mateus Macorini Alves
+- Linkedin: https://www.linkedin.com/in/mateus-macorini-alves-9398761a9/
+- 
