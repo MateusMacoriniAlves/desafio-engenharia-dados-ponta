@@ -53,9 +53,8 @@ Com os seguintes passos:
 1. Clone o repositório:
 2. git clone https://github.com/MateusMacoriniAlves/desafio-engenharia-dados-ponta.git
 3. docker compose build
-4. docker compose up
-  - Pode levar alguns segundos
-5. http://localhost:8080
+4. docker compose up (Pode levar alguns segundos)
+5. Após subir o container, entre em: http://localhost:8080
 - Usuário: airflow
 - Senha: airflow
 
