@@ -23,6 +23,7 @@ Com os seguintes passos:
 ---
 
 ## 📂 Estrutura de diretórios
+.
 ├── dags/             # DAGs do Airflow
 │   └── files/        # Scripts Python, funções auxiliares, etc.
 ├── files/            # Arquivos de entrada para processamento
