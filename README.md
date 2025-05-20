@@ -59,7 +59,7 @@ Com os seguintes passos:
 - Senha: airflow
 
 ## 🧪 Testes e execução
-- Verifique no painel se a DAG (dag_boi_gordo) existe.
+- Verifique no painel se a DAG (etl_boi_gordo) existe.
 - Execute a DAG manualmente para testar seu funcionamento
 
 ## 🧹 Parar e limpar o ambiente
@@ -75,4 +75,4 @@ docker-compose down --volumes --rmi all
 ## 👨‍💻 Autor
 - Mateus Macorini Alves
 - Linkedin: https://www.linkedin.com/in/mateus-macorini-alves-9398761a9/
-- 
+- email: mmatmt1@gmail.com
