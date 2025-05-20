@@ -22,6 +22,13 @@ Com os seguintes passos:
 
 ---
 
+## 📜 Bibliotecas Utilizadas
+- Airflow
+- pandas
+- openpyxl
+- requests
+- pyarrow
+
 ## 📂 Estrutura de diretórios
 ```
 .
