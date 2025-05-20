@@ -1,17 +1,17 @@
-# Desafio Engenharia de Dados - Ponta Agro - com Apache Airflow + Python (Pandas)
+# Desafio Engenharia de Dados - Ponta Agro
 
-Este projeto consiste em um pipeline de ETL para o desafio de Engenharia de Dados da Ponta Agro, utilizando **Airflow + Docker Compose**, arquivos locais e API externa para realizar um processo ETL completo.
+Este projeto consiste em um pipeline de ETL desenvolvido para o desafio técnico da **Ponta Agro**, utilizando **Apache Airflow + Docker Compose**, com arquivos locais e integração com API externa para realizar um processo ETL completo.
 
 ---
 
 ## ✅ Objetivo
 
-Realizar um ETL a partir de:
+Realizar um um pipeline de ETL com as seguintes fontes de dados:
 
 - Um arquivo `.xlsx` com dados de preço do boi gordo (CEPEA)
 - Uma API do Banco Central para obter o IPCA
 
-Com os seguintes passos:
+### Etapas do processo:
 
 1. Extração (arquivos e API)
 2. Limpeza e imputação de dados
@@ -22,12 +22,15 @@ Com os seguintes passos:
 
 ---
 
-## 📜 Bibliotecas Utilizadas
-- Airflow
+## 📦 Tecnologias e bibliotecas
+- Apache Airflow
 - pandas
 - openpyxl
 - requests
 - pyarrow
+- Docker + Docker Compose
+
+---
 
 ## 📂 Estrutura de diretórios
 ```
@@ -57,11 +60,10 @@ Com os seguintes passos:
 
 ### Passos
 
-1. Clone o repositório:
-2. git clone https://github.com/MateusMacoriniAlves/desafio-engenharia-dados-ponta.git
-3. docker compose build
-4. docker compose up (Pode levar alguns segundos)
-5. Após subir o container, entre em: http://localhost:8080
+1. Clone o repositório: git clone https://github.com/MateusMacoriniAlves/desafio-engenharia-dados-ponta.git
+2. Construa os containers: docker compose build
+3. Suba o ambiente: docker compose up (Pode levar alguns segundos)
+4. Após subir o container, entre em: http://localhost:8080
 - Usuário: airflow
 - Senha: airflow
 
@@ -75,9 +77,8 @@ Com os seguintes passos:
 
 ## 📌 Observações
 - Este projeto foi desenvolvido em Ubuntu 24.04 com Python 3.11.9 dentro dos containers.
-- Caso queira testar localmente, existe um arquivo chamado "api.py" na raiz que executa o código fora do airflow
-  - Esse arquivo foi colocado aí para testes e futuras execuções, caso o usuário queira executar fora do aiflow.
-- Alguns diretório são criados automaticamente. Eles estão ignorados pelo .gitignore
+- Um arquivo chamado api.py foi incluído na raiz do projeto para permitir testes fora do Airflow, caso desejado.
+- Os diretórios como logs/, __pycache__/ e outros arquivos temporários estão devidamente ignorados no .gitignore.
 
 ## 👨‍💻 Autor
 - Mateus Macorini Alves
