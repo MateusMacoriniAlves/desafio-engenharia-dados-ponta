@@ -59,9 +59,9 @@ Realizar um um pipeline de ETL com as seguintes fontes de dados:
 - Git
 
 ### Passos
-- Clone o repositório: git clone https://github.com/MateusMacoriniAlves/desafio-engenharia-dados-ponta.git
-- Construa os containers: docker compose build
-- Suba o ambiente: docker compose up (Pode levar alguns segundos)
+- Clone o repositório: ```git clone https://github.com/MateusMacoriniAlves/desafio-engenharia-dados-ponta.git```
+- Construa os containers: ```docker compose build```
+- Suba o ambiente: ```docker compose up``` (Pode levar alguns segundos)
 - Após subir o container, entre em: http://localhost:8080
 - Usuário: airflow
 - Senha: airflow
