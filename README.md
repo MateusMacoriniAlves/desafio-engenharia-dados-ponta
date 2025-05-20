@@ -63,16 +63,16 @@ Realizar um um pipeline de ETL com as seguintes fontes de dados:
 - Construa os containers: ```docker compose build```
 - Suba o ambiente: ```docker compose up``` (Pode levar alguns segundos)
 - Após subir o container, entre em: http://localhost:8080
-- Usuário: airflow
-- Senha: airflow
+- Usuário: ```airflow```
+- Senha: ```airflow```
 
 ## 🧪 Testes e execução
-- Verifique no painel se a DAG (etl_boi_gordo) existe.
+- Verifique no painel se a DAG ```etl_boi_gordo``` existe.
 - Execute a DAG manualmente para testar seu funcionamento
 
 ## 🧹 Parar e limpar o ambiente
-- docker-compose down
-- docker-compose down --volumes --rmi all
+- ```docker-compose down```
+- ```docker-compose down --volumes --rmi all```
 
 ## 📌 Observações
 - Este projeto foi desenvolvido em Ubuntu 24.04 com Python 3.11.9 dentro dos containers.
