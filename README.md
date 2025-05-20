@@ -23,7 +23,7 @@ Com os seguintes passos:
 ---
 
 ## 📂 Estrutura de diretórios
-''''
+```
 .
 ├── dags/             # DAGs do Airflow
 │   └── files/        # Scripts Python, funções auxiliares, etc.
@@ -38,7 +38,7 @@ Com os seguintes passos:
 ├── docker-compose.yml
 ├── .gitignore
 └── README.md
-''''
+```
 ---
 
 ## 🚀 Como executar
