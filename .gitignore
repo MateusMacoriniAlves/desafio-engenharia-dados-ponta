@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+.env
+*.env
+
+# Virtual environments
+venv/
+.venv/
+
+# Jupyter Notebook checkpoints (caso use)
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+
+# VS Code settings (caso use)
+.vscode/
+
+# System files
+.DS_Store
+
+# Docker
+**/docker-compose.override.yml
+docker-compose.override.yml
+.docker/
+*.pid
+
+# Airflow
+airflow.db
+airflow.cfg
+logs/
+*.airflow/
+airflow_home/
+
+# PyCharm
+.idea/
+
+# Arquivos temporários
+*.bak
+*.tmp
+*~
