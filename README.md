@@ -63,8 +63,8 @@ Com os seguintes passos:
 - Execute a DAG manualmente para testar seu funcionamento
 
 ## 🧹 Parar e limpar o ambiente
-docker-compose down
-docker-compose down --volumes --rmi all
+- docker-compose down
+- docker-compose down --volumes --rmi all
 
 ## 📌 Observações
 - Este projeto foi desenvolvido em Ubuntu 24.04 com Python 3.11.9 dentro dos containers.
