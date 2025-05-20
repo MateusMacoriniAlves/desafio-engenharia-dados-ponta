@@ -1,6 +1,6 @@
-# Desafio Engenharia de Dados - Ponta Agro
+# Desafio Engenharia de Dados - Ponta Agro com Apache Airflow + Python (Pandas)
 
-Este projeto é uma solução para o desafio de Engenharia de Dados da Ponta Agro, utilizando **Airflow + Docker Compose**, arquivos locais e API externa para realizar um processo ETL completo.
+Este projeto consiste em um pipeline de ETL para o desafio de Engenharia de Dados da Ponta Agro, utilizando **Airflow + Docker Compose**, arquivos locais e API externa para realizar um processo ETL completo.
 
 ---
 
@@ -22,5 +22,31 @@ Com os seguintes passos:
 
 ---
 
-## 📂 Estrutura
+## 📂 Estrutura de diretórios
+├── dags/             # DAGs do Airflow
+│   └── files/        # Scripts Python, funções auxiliares, etc.
+├── files/            # Arquivos de entrada para processamento
+│   ├── csv/          # Contém arquivos .csv
+│   ├── json/         # Contém arquivos .json
+│   ├── parquet/      # Contém arquivos .parquet
+│   └── xlsx/         # Contém arquivos .xlsx
+├── config/           # Configurações extras do projeto
+├── plugins/          # Plugins personalizados do Airflow
+├── logs/             # Gerado automaticamente pelo Airflow (ignorado no Git)
+├── docker-compose.yml
+├── .gitignore
+└── README.md
 
+---
+
+## 🚀 Como executar
+
+### Pré-requisitos
+
+- Docker + Docker Compose
+- Git
+
+### Passos
+
+1. Clone o repositório:
+2. git clone https://github.com/MateusMacoriniAlves/desafio-engenharia-dados-ponta.git
