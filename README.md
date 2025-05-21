@@ -44,7 +44,7 @@ Realizar um um pipeline de ETL com as seguintes fontes de dados:
 │   └── xlsx/         # Contém arquivos .xlsx
 ├── config/           # Configurações extras do projeto
 ├── plugins/          # Plugins personalizados do Airflow
-├── logs/             # Gerado automaticamente pelo Airflow (ignorado no Git)
+├── logs/             # Logs das execuções
 ├── docker-compose.yml
 ├── .gitignore
 └── README.md
