@@ -36,7 +36,7 @@ docker-compose.override.yml
 # Airflow
 airflow.db
 airflow.cfg
-logs/
+#logs/
 *.airflow/
 airflow_home/
 
