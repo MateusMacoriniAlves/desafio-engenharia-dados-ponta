@@ -68,9 +68,7 @@ Realizar um um pipeline de ETL com as seguintes fontes de dados:
 
 ### Possíveis erros
 - Pode acontecer alguns erros com o WSL, em testes foi preciso executar esse comando ```mkdir -p ./dags ./logs ./plugins ./config echo -e "AIRFLOW_UID=$(id -u)" > .env``` antes do comando  ```docker compose up```
-- Outro erro pode ser na configuração do arquivo dockerfile. Na documentação oficial tem um modelo, que foi utilizado nesse projeto. Porém pode ser necessário alterar o conteúdo para ```FROM apache/airflow:3.0.1
-
-COPY requirements.txt .
+- Outro erro pode ser na configuração do arquivo dockerfile. Na documentação oficial tem um modelo, que foi utilizado nesse projeto. Porém pode ser necessário alterar o conteúdo para ```FROM apache/airflow:3.0.1 COPY requirements.txt .```
 
 RUN pip install --no-cache-dir -r requirements.txt ```
 
